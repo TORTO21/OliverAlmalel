@@ -4899,10 +4899,10 @@ input, select, textarea {
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
 				object-fit: cover;
-				-moz-object-position: center;
-				-webkit-object-position: center;
-				-ms-object-position: center;
-				object-position: center;
+				-moz-object-position: 0 50%;
+				-webkit-object-position: 0 50%;
+				-ms-object-position: 0 50%;
+				object-position: 0 50%;
 				display: block;
 				position: absolute;
 				top: 0;
