@@ -204,7 +204,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 3.5rem;
+		font-size: 2.9rem;
 		line-height: 1.2;
 	}
 
@@ -3460,7 +3460,7 @@ input, select, textarea {
 	}
 
 		.banner.style1 .content {
-			padding: 7rem 7rem 5rem 7rem ;
+			padding: 7rem 5.5rem 5rem 5.5rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -3528,7 +3528,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.banner.style1 .content {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
+				padding: 3.75rem 1.75rem 1.75rem 2rem ;
 			}
 
 		}
@@ -3537,6 +3537,7 @@ input, select, textarea {
 
 			.banner.style1 .content {
 				padding: 2.5rem 2rem 0.5rem 2rem ;
+				justify-content: center;
 			}
 
 		}
@@ -3638,6 +3639,46 @@ input, select, textarea {
 			-webkit-object-position: right;
 			-ms-object-position: right;
 			object-position: right;
+		}
+
+		/* My Code */
+		.banner.style1 .content .main-header {
+			display: flex;
+			align-items: center;
+			flex-wrap: nowrap;
+		}
+		.banner.style1 .content .signature {
+			width: 18%;
+			height: auto;
+			margin-left: 4%;
+		}
+
+		@media screen and (max-width: 736px) {
+			
+			.banner.style1 .content .main-header {
+				align-items: center;
+			}
+
+			.banner.style1 .content .signature {
+				width: 90px;
+			}
+
+		}
+
+		@media screen and (orientation: portrait) {
+
+			.banner.style1 .content .main-header {
+				justify-content: center;
+			}
+
+			.banner.style1 .content .signature {
+				width: 60px;
+			}
+
+			ul.actions {
+				justify-content: center;
+			}
+			
 		}
 
 /* Banner (style2) */
