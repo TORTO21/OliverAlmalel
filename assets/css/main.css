@@ -2770,6 +2770,11 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+		/* ul.actions.icons li {
+			padding: 0 0 0 50px;
+			vertical-align: middle;
+		} */
+
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
@@ -3678,7 +3683,7 @@ input, select, textarea {
 			ul.actions {
 				justify-content: center;
 			}
-			
+
 		}
 
 /* Banner (style2) */
