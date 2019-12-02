@@ -4985,7 +4985,7 @@ input, select, textarea {
 
 		}
 
-	@media screen and (max-width: 736px) and (orientation: portrait) {
+	@media screen and (max-width: 820px) and (orientation: portrait) {
 
 		.spotlight.style1 {
 			-moz-flex-direction: column-reverse;
@@ -5016,7 +5016,7 @@ input, select, textarea {
 			flex-direction: row-reverse;
 		}
 
-	@media screen and (max-width: 736px) and (orientation: portrait) {
+	@media screen and (max-width: 820px) and (orientation: portrait) {
 
 		.spotlight.style1.orient-right {
 			-moz-flex-direction: column-reverse;
